@@ -24,4 +24,10 @@ public class Calculadora {
     public double restar() {
         return numero1 - numero2;
     }
+
+    public double division() {
+        return numero1 / numero2;
+    } else {
+        throw new ArithmeticException("no se puede dividir");
+    }
 }
