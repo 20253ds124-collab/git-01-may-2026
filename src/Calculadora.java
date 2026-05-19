@@ -15,4 +15,11 @@ public class Calculadora {
     public double sumar(){
         return numero1 + numero2;
     }
+
+
+
+public double multiplicar(){
+    return numero1 * numero2;
+}
+
 }
