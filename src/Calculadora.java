@@ -16,3 +16,9 @@ public class Calculadora {
         return numero1 + numero2;
     }
 }
+
+
+public double restar(){
+    return numero1 - numero2;
+}
+
